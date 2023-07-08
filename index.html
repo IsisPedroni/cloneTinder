@@ -17,36 +17,37 @@
     </nav>
 
     <div class="photo-and-actions">
-        <div class="photo">
+        <div id="photo" class="photo">
             <div class="photo-text">
                 <div class="photo-name-and-age">
-                    <h2>Ísis Pedroni, </h2>
+                    <h2 id="nome">Ísis Pedroni, </h2>
                     <h2>23</h2>
                 </div>
-                <div class="bio">                    
-                    Ei, Novo Mundo! Se procura alguém com senso de humor duvidoso (mas risadas garantidas) e habilidades de transformar café em código, não precisa procurar mais! Dê um 'match'!
+                <div id="bio" class="bio">
+                    Ei, Novo Mundo! Se procura alguém com senso de humor duvidoso (mas risadas garantidas) e habilidades
+                    de transformar café em código, não precisa procurar mais! Dê um Like!
                 </div>
             </div>
         </div>
 
         <div class="actions">
-            <div class="action">
+            <div class="action" onclick="dislike()">
                 <i class="fas fa-times"></i>
             </div>
 
-            <div class="action">
+            <div class="action" onclick="star()">
                 <i class="fas fa-star"></i>
             </div>
 
-            <div class="action">
+            <div class="action" onclick="like()">
                 <i class="fas fa-heart"></i>
             </div>
         </div>
     </div>
 
-
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/09b198abc6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

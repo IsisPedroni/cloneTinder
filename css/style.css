@@ -29,6 +29,10 @@ body{
     color: #dadfe6;
 }
 
+.navbar i:hover{
+    color: #fe466d;
+}
+
 .navbar i:nth-child(1){
     color: #fe466d;
 }
@@ -45,7 +49,7 @@ body{
 .photo{
     width: 98vw;
     height: 85vh;
-    background: url('/img/2.jpg') center center/cover;
+    background: url('../img/2.jpg') center center/cover;
     border-radius: 10px;
     display: flex;
     align-items: flex-end;
